@@ -1,0 +1,29 @@
+.footer-buttons-container {
+  height: 15%; /* Set height to 15% of the parent container */
+  width: 100%; /* Full width of the parent container */
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align buttons to the right */
+  align-items: center; /* Center buttons vertically */
+  background: #ffffff; /* White background */
+  padding: 0 10px; /* Padding on left and right sides */
+  margin-top: 20px; /* Space above the container */
+  margin-right: 20px; /* Space on the right side of the container */
+  gap: 10px; /* Space between buttons */
+}
+
+.footer-button {
+  background: #ffffff; /* White background */
+  color: #004481; /* Blue text color */
+  border-radius: 25px; /* Rounded corners with 25px radius */
+  padding: 8px 16px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  font-weight: 600; /* Bold text */
+  border: 1px solid #004481; /* Border color */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.footer-button:hover {
+  background: #f0f5ff ; /* Light blue background on hover */
+  color: #003366; /* Darker blue text color on hover */
+  border-color: #003366; /* Darker blue border on hover */
+}

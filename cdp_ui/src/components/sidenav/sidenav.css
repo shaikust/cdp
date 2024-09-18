@@ -1,0 +1,49 @@
+/* Set the background color of the side navigation */
+.ant-layout .ant-layout-sider-children {
+  background: #f1f8ff; /* Background color of the side navigation */
+}
+
+/* Set default text color, font size, and background color for the menu */
+.ant-menu-light,
+.ant-menu-dark,
+.ant-menu-light .ant-menu-item,
+.ant-menu-dark .ant-menu-item,
+.ant-menu-light .ant-menu-sub,
+.ant-menu-dark .ant-menu-sub {
+  background: #f1f8ff; /* Background color of the menu */
+  color: #004481; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: 600; /* Semi-bold font weight */
+}
+
+/* Add padding to the menu */
+.ant-menu {
+  margin-top: 40px;
+}
+
+/* Ensure the selected item's text is blue, underlined, and semi-bold */
+.ant-menu-item-selected,
+.ant-menu-item-selected a {
+  color: #004481; /* Text color for selected item */
+  text-decoration: underline; /* Underline selected item */
+  background-color: transparent; /* Keep the background transparent */
+  font-weight: 600; /* Semi-bold font weight */
+  font-size: 20px; /* Font size for selected item */
+}
+
+/* Remove any focus outline */
+.ant-menu-item:focus {
+  outline: none; /* Remove focus outline */
+}
+
+/* Optional: Adjust font size and weight for menu items */
+.side-nav-menu .ant-menu-item {
+  font-size: 20px; /* Font size for menu items */
+  font-weight: 600; /* Semi-bold font weight */
+}
+
+/* Optional: Adjust font size and weight for active menu items */
+.side-nav-menu .ant-menu-item-active {
+  font-size: 20px; /* Font size for active menu item */
+  font-weight: 600; /* Semi-bold font weight */
+}

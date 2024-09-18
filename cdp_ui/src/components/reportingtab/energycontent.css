@@ -1,0 +1,126 @@
+/* Wrapper for the energy content section */
+.energy-content-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Row styling for items */
+.item-row {
+  display: flex;
+  align-items: flex-start; /* Align items at the start */
+  margin-bottom: 10px; /* Space between rows */
+  width: 116%;
+}
+
+/* Content area for items */
+.item-content {
+  flex: 0 0 80%; /* Takes 80% of the width */
+  padding-right: 20px; /* Space between content and buttons */
+}
+
+/* Box around each item */
+.item-box {
+  background-color: #e7f3ff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Question area styling */
+.question-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space below the question box */
+}
+
+/* Styling for the question text */
+.question-text {
+  flex: 1;
+  margin-right: 10px; /* Space between question text and toggle */
+  font-weight: 600;
+}
+
+/* Details box styling */
+.details-box {
+  background-color: #e7f3ff;
+  padding: 10px;
+  border-radius: 4px;
+  color: #6C6E6B;
+}
+
+/* Input fields with dashed border */
+.input-dashed {
+  border-bottom: 2px dashed #0056b3;
+  width: 100px; /* Adjust width as needed */
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px;
+  color: #333; /* Text color */
+  background: #e7f3ff;
+  border-radius: 0;
+}
+
+/* Remove border for input on focus */
+.input-dashed:focus {
+  border-bottom: 2px dashed #0056b3;
+  border-width: 0;
+}
+
+/* Hover state for input fields */
+.input-dashed:hover {
+  background: #e7f3ff;
+}
+
+/* Dropdown select with dashed border */
+.select-dashed .ant-select-selector {
+  border-bottom: 2px dashed #0056b3; /* Dashed line color */
+  padding: 4px 0;
+  width: 100px; /* Adjust width as needed */
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent; /* Remove background color */
+  color: #333; /* Text color */
+}
+
+/* Remove border for select on focus */
+.select-dashed .ant-select-selector:focus {
+  border-bottom: 2px dashed #0056b3;
+  border-width: 0;
+}
+
+/* Hover state for select dropdowns */
+.select-dashed .ant-select-selector:hover {
+  background: #e7f3ff;
+}
+
+/* Container for action buttons */
+.button-container {
+  flex: 0 0 20%; /* Takes 20% of the width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px; /* Space between buttons */
+  margin-top: 10px; /* Space between content and buttons */
+}
+.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+  background: none;
+}
+
+.emissions-saved {
+  margin-top: 10px;
+  font-size: 14px; 
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.emmissioons-Input {
+  width: 120px;
+}
+.added-items {
+  margin-top: 20px;
+}
+
